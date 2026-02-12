@@ -1,0 +1,61 @@
+@layer components{
+    .heading1{
+        font-family:'Iceland';
+        font-size: 64px;
+        font-weight: 400;
+        color:#FFFFFF;
+    }
+
+    .heading2{
+        font-family:'Iceland';
+        font-size: 48px;
+        font-weight: 400;
+        color:#FFFFFF;
+    }
+
+    .heading3{
+        font-family:'Iceland';
+        font-size: 40px;
+        font-weight: 400;
+        color:#FFFFFF;
+    }
+
+    .heading4{
+        font-family:'Iceland';
+        font-size: 32px;
+        font-weight: 400;
+        color:#FFFFFF;
+    }
+
+    .paragaph1{
+        font-family:'Iceland';
+        font-size: 16px;
+        font-weight: 400;
+        color:#FFFFFF;
+    }
+
+    .button1{
+        border:1px solid #FFFFFF;
+        border-radius: 5px;
+        font-family:'Iceland';
+        font-size: 32px;
+        font-weight: 400;
+        color:#FFFFFF;
+    }
+
+    .navbar{
+        background-color: #303030;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .links{
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .link li{
+        margin-right: 50px;
+    }
+}

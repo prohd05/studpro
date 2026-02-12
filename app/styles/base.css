@@ -1,0 +1,28 @@
+@layer base{
+    h1{
+        font-family:'Iceland';
+        font-size: 64px;
+        color:#FFFFFF;
+    }
+    h2{
+        font-family:'Iceland';
+        font-size: 48px;
+        color:#FFFFFF;
+    }
+    h3{
+        font-family:'Iceland';
+        font-size: 40px;
+        color:#FFFFFF;
+    }
+    h4{
+        font-family:'Iceland';
+        font-size: 32px;
+        color:#FFFFFF;
+    }
+
+    p{
+        font-family:'Iceland';
+        font-size: 16px;
+        color:#FFFFFF;
+    }
+}
