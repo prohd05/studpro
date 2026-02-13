@@ -1,3 +1,16 @@
 @layer utilities{
+    .blue{
+        color:#82B7DC;
+    }
     
+    .contact{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .coninfo{
+        margin-top: 25%;
+    }
 }

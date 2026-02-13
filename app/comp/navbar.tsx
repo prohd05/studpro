@@ -4,10 +4,10 @@ import Link from "next/link"
 export default function navbar(){
     return(
         <div className="navbar">
-            <Picture alt="logo" src="/logo.png" width={95} height={95}/>
+            <Link href='/'> <Picture alt="logo" src="/logo.png" width={95} height={95}/> </Link>
             <ul className="links"> 
-                <li className="heading4"> Work </li>
-                <li className="heading4"> About </li>
+                <Link href='/projects' className="heading4"> Work </Link>
+                <Link href='/contact' className="heading4"> About </Link>
             </ul>
         </div>
     )

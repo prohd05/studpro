@@ -1,28 +1,25 @@
 import Image from "next/image";
 import Button from './comp/button'
-import Card from './comp/card'
 import Navbar from './comp/navbar'
+import whoAm from '../public/whoAm.png'
+import Picture from "next/image";
 
 export default function Home() {
   return (
     <div>
-      <div className="Stylesheet">
-        <p> This is my stylesheet</p>
-        <h1> Heading 1 </h1>
-        <h2> Heading 2 </h2>
-        <h3> Heading 3 </h3>
-        <h4> Heading 4 </h4>
-        <p> Paragraph 1 </p>
-        <Button text={"Click Me"}/>
+      <div className="htop">
+        <h2> Who I am</h2>
+        <Picture alt="Image" src={whoAm} width={261} height={261}/>
+        <h4> My name is Merques Enoe. I am a 17 year old senior within Technology High School. I really enjoy video games and superheroes. When I grow up, I hope to become a criminal lawyer.  </h4>
+      </div>
 
-        <Navbar/>
-
-        <Card title={"2026 Midterm"} pic={'/loo.png'} alt={"Midterm Hero"} desc={"We tested out skills to attempting to receate a website through code. I did well, getting as close as I could to the orgianl design. This allowed me to see what I need to improve on when making a website."}/>
-        
-
-        {/* <Card title={""} pic={} alt={""} desc={""}/>
-        <Card title={""} pic={} alt={""} desc={""}/>
-        <Card title={""} pic={} alt={""} desc={""}/> */}
+      <div className="hbottom"> 
+        <h2> Skills </h2>
+        <ul className="skills">
+          <li className="heading4"> Problem Solving </li>
+          <li className="heading4"> Teamwork </li>
+          <li className="heading4"> Scripting/code that involved doing a task</li>
+        </ul>
       </div>
     </div>
   );

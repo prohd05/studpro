@@ -1,37 +1,90 @@
 @layer components{
-    .heading1{
-        font-family:'Iceland';
-        font-size: 64px;
-        font-weight: 400;
-        color:#FFFFFF;
+    @media screen and (min-width: 1200px) {
+        .heading1{
+            font-family:'Iceland';
+            font-size: 64px;
+            color:#FFFFFF;
+        }
+        .heading2{
+            font-family:'Iceland';
+            font-size: 48px;
+            color:#FFFFFF;
+        }
+        .heading3{
+            font-family:'Iceland';
+            font-size: 40px;
+            color:#FFFFFF;
+        }
+        .heading4{
+            font-family:'Iceland';
+            font-size: 32px;
+            color:#FFFFFF;
+        }
+    
+        .paragraph1{
+            font-family:'Iceland';
+            font-size: 16px;
+            color:#FFFFFF;
+        }
     }
 
-    .heading2{
-        font-family:'Iceland';
-        font-size: 48px;
-        font-weight: 400;
-        color:#FFFFFF;
+    @media screen and (min-width: 800px) and (max-width: 1199px) {
+        .heading1{
+            font-family:'Iceland';
+            font-size: 48px;
+            color:#FFFFFF;
+        }
+        .heading2{
+            font-family:'Iceland';
+            font-size: 40px;
+            color:#FFFFFF;
+        }
+        .heading3{
+            font-family:'Iceland';
+            font-size: 32px;
+            color:#FFFFFF;
+        }
+        .heading4{
+            font-family:'Iceland';
+            font-size: 24px;
+            color:#FFFFFF;
+        }
+    
+        .paragraph1{
+            font-family:'Iceland';
+            font-size: 14px;
+            color:#FFFFFF;
+        }
     }
 
-    .heading3{
-        font-family:'Iceland';
-        font-size: 40px;
-        font-weight: 400;
-        color:#FFFFFF;
-    }
-
-    .heading4{
-        font-family:'Iceland';
-        font-size: 32px;
-        font-weight: 400;
-        color:#FFFFFF;
-    }
-
-    .paragaph1{
-        font-family:'Iceland';
-        font-size: 16px;
-        font-weight: 400;
-        color:#FFFFFF;
+    @media screen and (max-width: 799px) {
+        .heading1{
+            font-family:'Iceland';
+            font-size: 24px;
+            color:#FFFFFF;
+        }
+        .heading2{
+            font-family:'Iceland';
+            font-size: 20px;
+            color:#FFFFFF;
+        }
+        .heading3{
+            font-family:'Iceland';
+            font-size: 16px;
+            color:#FFFFFF;
+        }
+        .heading4{
+            font-family:'Iceland';
+            font-size: 14px;
+            color:#FFFFFF;
+        }
+    
+        .paragraph1{
+            font-family:'Iceland';
+            font-size: 12px;
+            color:#FFFFFF;
+        }
+        
     }
 
     .button1{
@@ -49,13 +102,56 @@
         justify-content: space-between;
         align-items: center;
     }
+    
+    @media screen and (min-width: 800px)  {
+        .links{
+            display: flex;
+            justify-content: space-evenly;
+            align-items: end;
+            width: 20%;
+        }
+    }
 
-    .links{
+    @media screen and (max-width: 799px) {
+        .links{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 25%;
+        }
+    }
+    
+    .footer{
         display: flex;
-        justify-content: space-evenly;
+        background-color: #303030;
+        justify-content: space-between;
+        align-items: center;
     }
 
-    .link li{
-        margin-right: 50px;
+    .footer li{
+        list-style: none;
     }
+
+    .htop{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .hbottom{
+        margin-top: 25%;
+        margin-bottom: 25%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .skills li{
+         list-style: outside;
+         text-align: left;
+    }
+    
 }

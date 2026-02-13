@@ -1,28 +1,89 @@
 @layer base{
-    h1{
-        font-family:'Iceland';
-        font-size: 64px;
-        color:#FFFFFF;
-    }
-    h2{
-        font-family:'Iceland';
-        font-size: 48px;
-        color:#FFFFFF;
-    }
-    h3{
-        font-family:'Iceland';
-        font-size: 40px;
-        color:#FFFFFF;
-    }
-    h4{
-        font-family:'Iceland';
-        font-size: 32px;
-        color:#FFFFFF;
+    @media screen and (min-width: 1200px) {
+        h1{
+            font-family:'Iceland';
+            font-size: 64px;
+            color:#FFFFFF;
+        }
+        h2{
+            font-family:'Iceland';
+            font-size: 48px;
+            color:#FFFFFF;
+        }
+        h3{
+            font-family:'Iceland';
+            font-size: 40px;
+            color:#FFFFFF;
+        }
+        h4{
+            font-family:'Iceland';
+            font-size: 32px;
+            color:#FFFFFF;
+        }
+    
+        p{
+            font-family:'Iceland';
+            font-size: 16px;
+            color:#FFFFFF;
+        }
     }
 
-    p{
-        font-family:'Iceland';
-        font-size: 16px;
-        color:#FFFFFF;
+    @media screen and (min-width: 800px) and (max-width: 1199px) {
+        h1{
+            font-family:'Iceland';
+            font-size: 48px;
+            color:#FFFFFF;
+        }
+        h2{
+            font-family:'Iceland';
+            font-size: 40px;
+            color:#FFFFFF;
+        }
+        h3{
+            font-family:'Iceland';
+            font-size: 32px;
+            color:#FFFFFF;
+        }
+        h4{
+            font-family:'Iceland';
+            font-size: 24px;
+            color:#FFFFFF;
+        }
+    
+        p{
+            font-family:'Iceland';
+            font-size: 14px;
+            color:#FFFFFF;
+        }
+    }
+
+    @media screen and (max-width: 799px) {
+        h1{
+            font-family:'Iceland';
+            font-size: 24px;
+            color:#FFFFFF;
+        }
+        h2{
+            font-family:'Iceland';
+            font-size: 20px;
+            color:#FFFFFF;
+        }
+        h3{
+            font-family:'Iceland';
+            font-size: 16px;
+            color:#FFFFFF;
+        }
+        h4{
+            font-family:'Iceland';
+            font-size: 14px;
+            color:#FFFFFF;
+        }
+    
+        p{
+            font-family:'Iceland';
+            font-size: 12px;
+            color:#FFFFFF;
+        }
+        
     }
 }
