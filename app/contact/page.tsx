@@ -4,8 +4,8 @@ export default function Contact(){
             <h2> Contact Me </h2>
 
             <div className="coninfo"> 
-                <p> Email: <a href="mailto:merques.682563@nps.k12.nj.us"className="blue"> merques.682563@nps.k12.nj.us</a> </p>
-                <p> Github: <a href="https://github.com/prohd05" target="_blank" className="blue"> ProHD05 </a></p>
+                <p> Email: <a href="mailto:merques.682563@nps.k12.nj.us" target="_blank" className="blued"> merques.682563@nps.k12.nj.us</a> </p>
+                <p> Github: <a href="https://github.com/prohd05" target="_blank" className="blued"> ProHD05 </a></p>
             </div>
         </div>
     )

@@ -13,6 +13,7 @@ export default function Home() {
         <h4> My name is Merques Enoe. I am a 17 year old senior within Technology High School. I really enjoy video games and superheroes. When I grow up, I hope to become a criminal lawyer.  </h4>
       </div>
 
+
       <div className="hbottom"> 
         <h2> Skills </h2>
         <ul className="skills">

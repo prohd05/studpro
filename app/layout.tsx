@@ -25,7 +25,9 @@ export default function RootLayout({
     <html lang="en">
       <body className={iceland.className}>
         <Navbar/>
-        {children}
+        <main className="flex-grow">
+          {children}
+        </main>
         <Footer/>
       </body>
     </html>
