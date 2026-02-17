@@ -2,7 +2,7 @@ export default function footer(){
     return(
             <footer className="footer"> 
                 <li className="heading4"> Merques Enoe </li>
-                <li className="heading4"> 2026 </li>
+                <li className="heading4"> <a href="https://github.com/prohd05" target="_blank" className="blue"> Github </a> </li>
             </footer>
     )
 } 

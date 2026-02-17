@@ -7,7 +7,7 @@ export default function navbar(){
             <Link href='/'> <Picture alt="logo" src="/Logo.png" width={95} height={95}/> </Link>
             <ul className="links"> 
                 <Link href='/projects' className="heading4"> Work </Link>
-                <Link href='/contact' className="heading4"> About </Link>
+                <Link href='/contact' className="heading4"> Contact </Link>
             </ul>
         </div>
     )

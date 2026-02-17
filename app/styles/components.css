@@ -123,6 +123,8 @@
     }
     
     .footer{
+        padding-left:2%;
+        padding-right:2%;
         display: flex;
         background-color: #303030;
         justify-content: space-between;
@@ -150,8 +152,8 @@
     }
 
     .card-image{
-    width: 100%;
-    height: auto;
+        width: 100%;
+        height: auto;
     }
     
     @media screen and (min-width:800px) {
@@ -165,5 +167,17 @@
     .card-image-wrapper {
         max-width: 200px;        
     }
+    }
+
+    .con{
+        margin-top: 10%;
+        display:flex;
+        flex-direction: column;
+    }
+
+    .input{
+        overflow: auto;
+        border:#FFFFFF solid 1px;
+        border-radius: 5px;
     }
 }
