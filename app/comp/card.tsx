@@ -3,7 +3,7 @@ import Image, { StaticImageData } from "next/image";
 export default function Card({ title , link, pic, alt, desc }: {title: string; link:string; pic: string; alt: string; desc: string;}) {
   return (
     <div className="Card">
-      <a href="https://github.com/prohd05/Exam/tree/main/Midterm" target="_blank"> <h3 className="blue">{title}</h3> </a>
+    <h3 className="blue">{title}</h3> 
       <div className="card-image-wrapper">
         <Image src={pic} alt={alt} width={500} height={390} className="card-image"  // makes it fluid
           sizes="(max-width:799px) 90vw,
@@ -12,6 +12,7 @@ export default function Card({ title , link, pic, alt, desc }: {title: string; l
         />
       </div>
       <p>{desc}</p>
+      <button> <a href={link} target="_blank"> Link to Project </a> </button>
     </div>
   );
 }

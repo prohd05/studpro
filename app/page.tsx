@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Button from './comp/button'
 import Navbar from './comp/navbar'
-import whoAm from '../public/whoAm.png'
+import Me from '../public/Me.png'
 import Picture from "next/image";
 
 export default function Home() {
@@ -9,8 +9,8 @@ export default function Home() {
     <div>
       <div className="htop">
         <h2> Who I am</h2>
-        <Picture alt="Image" src={whoAm} width={261} height={261}/>
-        <h4> My name is Merques Enoe. I am a 17 year old senior within Technology High School. I really enjoy video games and superheroes. When I grow up, I hope to become a criminal lawyer.  </h4>
+        <Picture alt="Image" src={Me} width={261} height={261}/>
+        <h4> My name is Merques Enoe. I am a 17 year old senior within Technology High School. I grew up in Brooklyn, New York before moving to Newark, New Jersey. I now live here with my sister, both parents and my 2 pets. I really enjoy video games and superheroes. When I grow up, I hope to become a criminal lawyer.  </h4>
       </div>
 
 

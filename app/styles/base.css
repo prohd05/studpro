@@ -28,7 +28,9 @@
         font-size: 32px;
         font-weight: 400;
         color:#FFFFFF;
-        width:fit-content;
+        width: fit-content;
+        padding-left: .5%;
+        padding-right: .5%;
     }
     
         p{
@@ -68,6 +70,8 @@
         font-weight: 400;
         color:#FFFFFF;
         width:fit-content;
+        padding-left: .5%;
+        padding-right: .5%;
     }
     
         p{
@@ -107,6 +111,8 @@
         font-weight: 400;
         color:#FFFFFF;
         width:fit-content;
+        padding-left: .5%;
+        padding-right: .5%;
     }
     
         p{

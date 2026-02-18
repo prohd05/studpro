@@ -4,22 +4,22 @@ export default function Contact(){
             <h2> Contact Me </h2>
 
             <div className="coninfo"> 
-                <p> My Email: <a href="mailto:merques.enoe@gmail.com" target="_blank" className="blued"> merques.enoe@gmail.com</a> </p>
+                <p> My Email: <a href="mailto:merques.enoe@gmail.com" target="_blank" className="blue"> merques.enoe@gmail.com</a> </p>
                 
                 <form className="subem">
                 <div className="con">
-                <label> Your Name: </label>
-                <input type="text" size={30} required/>
+                <label className="paragraph1"> Your Name: </label>
+                <input type="text" className="input" required/>
                 </div>
 
                 <div className="con">
-                <label> Your Email: </label>
-                <input type="email" size={30} required/>
+                <label className="paragraph1"> Your Email: </label>
+                <input type="email" className="input" required/>
                 </div>
 
                 <div className="con">
-                    <label> Your Inquiry: </label>
-                    <textarea className="input" rows={10} cols={30} required/>
+                    <label className="paragraph1"> Your Inquiry: </label>
+                    <textarea className="input" rows={10} required/>
                 </div>
 
                 <button className="sub"> Submit </button>
